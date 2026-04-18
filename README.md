@@ -1,9 +1,9 @@
 # MA-TabNet for Global Maternal Mortality Prediction
 
-**MA-TabNet** is a missingness-aware deep tabular learning framework for predicting the **global maternal mortality ratio (MMR)** from country-level health and socioeconomic indicators.
+**MA-TabNet** is a missingness-aware deep tabular learning framework for predicting the **global maternal mortality ratio (MMR)** from country-level health and socioeconomic indicators.  
 The model is designed for **high-sparsity public health tabular data**, where missing entries are not treated as mere preprocessing artifacts, but as potentially informative signals reflecting structural differences in reporting capacity, surveillance continuity, and administrative infrastructure.
 
-This repository accompanies our study on **Missingness-Aware TabNet (MA-TabNet)** and provides the implementation used for reproducible experiments on a global **country-year panel** constructed from publicly available data sources. The framework extends TabNet with a **distribution-aware selective masking (DASM)** strategy, which introduces missingness indicators only for variables with substantively high missingness, thereby preserving informative absence patterns while avoiding unnecessary dimensional expansion.
+This repository accompanies our study on **Missingness-Aware TabNet (MA-TabNet)**, published in *Mathematics* in 2026, and provides the implementation used for reproducible experiments on a global **country-year panel** constructed from publicly available data sources. The framework extends TabNet with a **distribution-aware selective masking (DASM)** strategy, which introduces missingness indicators only for variables with substantively high missingness, thereby preserving informative absence patterns while avoiding unnecessary dimensional expansion.
 
 ## Key Features
 
@@ -25,7 +25,7 @@ This repository is intended to support:
 * **Model transparency**
 * **Experimental reproducibility**
 * **Methodological inspection of MA-TabNet**
-* **Supplementary material for the associated manuscript**
+* **Supplementary material for the published article**
 
 It includes the implementation of preprocessing, selective masking, model training, temporal validation, and explainability analyses used in the study.
 
@@ -44,7 +44,9 @@ MA-TabNet is designed as a **decision-support modeling framework** for maternal 
 
 ## Citation
 
-If you use this repository or build upon this framework, please cite the associated manuscript.
+If you use this repository, please cite the following article:
+
+S. Yu, Y. Mun, G. Lee, Y. Lee, H. Kim, and J. Moon, "Missingness-Aware TabNet: Handling Structural Missing Data for the Interpretable Prediction of Global Maternal Mortality," *Mathematics*, vol. 14, no. 8, p. 1325, 2026, doi: 10.3390/math14081325.
 
 ---
 
