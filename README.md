@@ -3,7 +3,9 @@
 **MA-TabNet** is a missingness-aware deep tabular learning framework for predicting the **global maternal mortality ratio (MMR)** from country-level health and socioeconomic indicators.  
 The model is designed for **high-sparsity public health tabular data**, where missing entries are not treated as mere preprocessing artifacts, but as potentially informative signals reflecting structural differences in reporting capacity, surveillance continuity, and administrative infrastructure.
 
-This repository accompanies our study on **Missingness-Aware TabNet (MA-TabNet)**, published in *Mathematics* in 2026, and provides the implementation used for reproducible experiments on a global **country-year panel** constructed from publicly available data sources. The framework extends TabNet with a **distribution-aware selective masking (DASM)** strategy, which introduces missingness indicators only for variables with substantively high missingness, thereby preserving informative absence patterns while avoiding unnecessary dimensional expansion.
+This repository accompanies our study on **Missingness-Aware TabNet (MA-TabNet)**, published in *Mathematics* in 2026, and provides the implementation used for reproducible experiments on a global **country-year panel** constructed from publicly available data sources.
+
+The framework extends TabNet with a **distribution-aware selective masking (DASM)** strategy, which introduces missingness indicators only for variables with substantively high missingness, thereby preserving informative absence patterns while avoiding unnecessary dimensional expansion.
 
 ## Key Features
 
